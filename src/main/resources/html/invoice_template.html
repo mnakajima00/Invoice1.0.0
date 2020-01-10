@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Invoice</title>
+
+		<!-- file:///Users/maikunakajima/IdeaProjects/Invoice/src/main/java/invoice_template.css -->
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" media="screen" href="file:///Users/maikunakajima/IdeaProjects/Invoice/src/main/java/html/invoice_template.css" />
+		<link rel="stylesheet" type="text/css" media="print" href="file:///Users/maikunakajima/IdeaProjects/Invoice/src/main/java/html/invoice_template.css" />
+	</head>
+
+	<body>
+
+		<div id="main-container">
+
+			<div id="header">
+				<ul>
+					<li id="logo">
+						<img alt="logo" src="images/DrJungLogo.png">
+					</li>
+					<li id="title">	
+						<h2>Jungs' Oriental Medical Clinic</h2>
+					</li>
+				</ul>
+			</div>
+
+			<div id="address">
+				<p class="bold">Korea Triangle TCM Acupuncture SDN. BHD <br>
+					K-01-10, Soho KL, Solaris Mont Kiara,<br>
+					No. 2, Jalan Solaris, 50480 KL Malaysia.<br>
+					(TEL: 03-6211-2099 / 03-6203-0278</p>
+			</div>
+			<div id="customer-info">
+				<p><span class="bold" id="official-receipt">OFFICIAL RECEIPT</span><br><br>
+					<span id="billTo">Bill To:</span><br>
+					<span id="name">Name:</span><br>
+					<span id="dateOfBirth">Date of Birth:</span><br>
+					<span id="gender">Gender:</span><br>
+					<span id="passportNo">Passport No:</span><br>
+					<span id="date">Date:</span></p><br>
+			</div>
+
+			<div id="invoice-container">
+				<img src="images/logo-trans3.png" id="table-img">
+				<table id="main-table">
+					<!-- TABLE HEADER -->
+					<tr id="table-header">
+						<td>Description</td>
+						<td>Amount(RM)</td>
+					</tr>
+					<!-- TABLE CONTENT -->
+					<tr id="content-container">
+						<tr id="table-content">
+							<!-- Description Column -->
+							<td id="invoiceColumn"></td>
+							<!-- Amount Column -->
+							<td id="amountColumn"></td>
+						</tr>
+						<!-- Symptoms -->
+						<tr id="symptoms"></tr>
+						<!-- TOTAL -->
+						<tr id="totalPrice"></tr>
+					</tr>
+				</table>
+			</div>
+
+			<!-- DOCTORS SIGNATURE -->
+			<div id="signature">
+				<ul>
+					<li>________________</li>
+					<li id="doctor">Dr Jung</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* class customization */
+.bold {
+    font-weight: bold;
+}
+
+/* HEADER */
+#header {
+    display: inline;
+    background-color: bisque;
+}
+#header ul li{
+    display: inline-block;
+
+}
+
+#header li{
+    vertical-align: middle;
+}
+
+#title {
+    margin-left: 2%;
+}
+
+#title h2{
+    font-family: Times New Roman;
+    color: #4472C4;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#logo {
+    width: 10%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+/* ADDRESS */
+#address {
+    margin-top: 1%;
+}
+
+#address p {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* CUSTOMER INFO */
+
+#invoice-container img{
+
+    position: fixed;
+    left:32.5%;
+    top: 35%;
+    z-index: -1;
+    width: 35%;
+    height: 25%;
+}
+#official-receipt{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial;
+}
+#customer-info {
+    margin-top: 1%;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* INVOICE */
+#main-table{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 11px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#table-header td {
+    padding: 5px;
+    width: 50%;
+    border-bottom: 1px solid black;
+    background-color: #e6e6e6;
+}
+
+#main-table table{
+    font-size: 11px;
+}
+
+#invoiceColumn{
+    width: 50%;
+}
+
+#table-content td {
+    padding: 2px;
+}
+.product {
+    text-align: left;
+}
+
+.productCount {
+    text-align: center;
+    width: 20%;
+}
+
+.date {
+    font-size: 11px;
+    text-align: center;
+}
+
+#invoiceColumn table{
+    width: 100%;
+}
+
+#amountColumn{
+    width: 50%;
+}
+
+#amountColumn table{
+    width: 100%;
+}
+
+#table-header td, #invoiceColumn, #amountColumn, #symptoms td, #totalPrice td{
+    border-left: 1px solid black;
+}
+
+#amountColumn table td{
+    text-align: center;
+}
+#symptoms td{
+    text-align: left;
+    height: 10%;
+    padding: 2px;
+}
+
+/* DOCTOR SIGNATURE */
+#signature{
+    margin-top: 40px;
+}
+#signature ul {
+    float: right;
+    margin-right: 10%;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#signature ul li{
+    text-align: center;
+    font-size: 11px;
+}
